@@ -5,7 +5,6 @@ const router = express.Router();
 const Usuarios = require('../controllers/usuarios.controller');
 
 router.get('/saludo', (req, res) => {
-    console.log("Entrado a página incial...");
     res.send("asdasdaasd");
 });
 
